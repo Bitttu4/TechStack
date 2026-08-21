@@ -1,0 +1,20 @@
+{
+  "station": {
+    "station_id": "GANGA-001",
+    "latitude": 25.3176,
+    "longitude": 83.0065
+  },
+  "readings": [
+    {
+      "timestamp": "...",
+      "station_id": "GANGA-001",
+      "latitude": 25.3176,
+      "longitude": 83.0065,
+      "temperature": 27.14,
+      "pH": 7.28,
+      "dissolved_oxygen": 6.91,
+      "turbidity": 22.47,
+      "event": "normal"
+    }
+  ]
+}
