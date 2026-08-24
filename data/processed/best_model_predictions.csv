@@ -1,0 +1,94 @@
+state,station_name,year,dissolved_oxygen,source_file,prediction,residual
+Uttarakhand,Bhagirathi at Gangotri,2020,9.8,RS_Session_255_AU_90.1 (1).csv,9.564791576203042,0.2352084237969585
+Uttarakhand,"Mandakini b/c Alaknanda, Rudraprayag",2020,9.8,RS_Session_255_AU_90.1 (1).csv,9.364791576200815,0.43520842379918534
+Uttarakhand,"Alaknanda b/c Mandakini, RudraPrayag",2020,9.4,RS_Session_255_AU_90.1 (1).csv,9.464791576202263,-0.06479157620226239
+Uttarakhand,"Alkananda a/c Mandakini, Rudraprayag",2020,10.1,RS_Session_255_AU_90.1 (1).csv,9.464791576202263,0.6352084237977369
+Uttarakhand,"Bhagirathi b/c Alaknanda, Devprayag",2020,10.0,RS_Session_255_AU_90.1 (1).csv,9.464791576202263,0.5352084237977373
+Uttarakhand,"Alaknanda b/c Bhagirathi, Devprayag",2020,10.0,RS_Session_255_AU_90.1 (1).csv,9.364791576200815,0.6352084237991846
+Uttarakhand,"Alaknanda a/c Bhagirathi, Devprayag",2020,10.6,RS_Session_255_AU_90.1 (1).csv,9.56479157620305,1.0352084237969503
+Uttarakhand,U/s Rishikesh,2020,10.6,RS_Session_255_AU_90.1 (1).csv,9.964791576207855,0.6352084237921449
+Uttarakhand,"A/c Song Near Satyanarayan Temple, d/s Raiwala",2020,9.0,RS_Session_255_AU_90.1 (1).csv,8.964791576196635,0.03520842380336475
+Uttarakhand,Rishikesh d/s,2020,9.8,RS_Session_255_AU_90.1 (1).csv,9.664791576204355,0.13520842379564613
+Uttarakhand,Har-ki- pauri Ghat,2020,9.8,RS_Session_255_AU_90.1 (1).csv,9.2647915761995,0.5352084238005013
+Uttarakhand,Haridwar d/s,2020,9.2,RS_Session_255_AU_90.1 (1).csv,9.064791576197422,0.13520842380257747
+Uttarakhand,Roorkee d/s,2020,9.4,RS_Session_255_AU_90.1 (1).csv,9.264791576199496,0.13520842380050446
+Uttar Pradesh,Madhya Ganga Barrage (Bijnor),2020,8.8,RS_Session_255_AU_90.1 (1).csv,8.56479309208962,0.23520690791038135
+Uttar Pradesh,Garhmukteshwar,2020,9.1,RS_Session_255_AU_90.1 (1).csv,8.259793092085886,0.8402069079141139
+Uttar Pradesh,Brijghat Gharmukteshwar,2020,9.3,RS_Session_255_AU_90.1 (1).csv,8.22979309208542,1.0702069079145815
+Uttar Pradesh,U/s Anoopshahar,2020,8.5,RS_Session_255_AU_90.1 (1).csv,7.864793092081296,0.6352069079187039
+Uttar Pradesh,Anoopshahar d/s,2020,8.6,RS_Session_255_AU_90.1 (1).csv,8.639793092090205,-0.03979309209020521
+Uttar Pradesh,Narora (Bulandsahar),2020,8.6,RS_Session_255_AU_90.1 (1).csv,7.73979309208022,0.86020690791978
+Uttar Pradesh,Kachhla Ghat (Aligarh),2020,10.3,RS_Session_255_AU_90.1 (1).csv,8.764793092091839,1.5352069079081616
+Uttar Pradesh,Farrukhabad,2020,8.8,RS_Session_255_AU_90.1 (1).csv,8.514793092089263,0.28520690791073733
+Uttar Pradesh,U/s Kannauj (Rajghat),2020,8.5,RS_Session_255_AU_90.1 (1).csv,8.23979309208589,0.2602069079141103
+Uttar Pradesh,Kannauj d/s,2020,8.2,RS_Session_255_AU_90.1 (1).csv,8.439793092088681,-0.23979309208868216
+Uttar Pradesh,Bithoor (Kanpur),2020,8.5,RS_Session_255_AU_90.1 (1).csv,7.8647930920812925,0.6352069079187075
+Uttar Pradesh,U/s Kanpur (Ranighat),2020,8.4,RS_Session_255_AU_90.1 (1).csv,7.314793092075245,1.0852069079247553
+Uttar Pradesh,Bathing Ghat (Bharaoghat),2020,8.2,RS_Session_255_AU_90.1 (1).csv,7.66479309207914,0.535206907920859
+Uttar Pradesh,Shuklaganj d/s,2020,8.0,RS_Session_255_AU_90.1 (1).csv,7.264793092074896,0.7352069079251038
+Uttar Pradesh,Bathing Ghat (Gola Ghat),2020,7.6,RS_Session_255_AU_90.1 (1).csv,7.014793092071276,0.5852069079287237
+Uttar Pradesh,Kanpur d/s (Jajmau Pumping Station),2020,7.4,RS_Session_255_AU_90.1 (1).csv,6.289793092062727,1.1102069079372736
+Uttar Pradesh,Bathing Ghat (Jajmau Bridge),2020,7.5,RS_Session_255_AU_90.1 (1).csv,6.864793092070052,0.6352069079299483
+Uttar Pradesh,Dalmau (Rai Bareilly),2020,9.3,RS_Session_255_AU_90.1 (1).csv,8.96479309209439,0.3352069079056115
+Uttar Pradesh,Kala Kankar (Rai Bareilly),2020,9.7,RS_Session_255_AU_90.1 (1).csv,8.964793092094393,0.7352069079056065
+Uttar Pradesh,Prayagraj (Rasoolabad),2020,8.4,RS_Session_255_AU_90.1 (1).csv,8.664793092090992,-0.2647930920909918
+Uttar Pradesh,Kadaghat (Prayagraj),2020,8.5,RS_Session_255_AU_90.1 (1).csv,8.414793092087383,0.08520690791261742
+Uttar Pradesh,Prayagraj d/s (Sangam),2020,7.9,RS_Session_255_AU_90.1 (1).csv,8.564793092089612,-0.6647930920896119
+Uttar Pradesh,A/c Tamsa River (Sirsa),2020,8.7,RS_Session_255_AU_90.1 (1).csv,8.514793092089263,0.1852069079107359
+Uttar Pradesh,"U/s, Vindhyachal (Mirzapur)",2020,8.5,RS_Session_255_AU_90.1 (1).csv,8.514793092089267,-0.014793092089266935
+Uttar Pradesh,"D/s, Mirzapur",2020,7.5,RS_Session_255_AU_90.1 (1).csv,7.66479309207914,-0.16479309207914028
+Uttar Pradesh,Chunar,2020,8.2,RS_Session_255_AU_90.1 (1).csv,8.164793092084867,0.035206907915132035
+Uttar Pradesh,U/s Varanasi (Assighat),2020,8.7,RS_Session_255_AU_90.1 (1).csv,8.014793092083067,0.6852069079169318
+Uttar Pradesh,Varanasi d/s (Malviya Bridge),2020,7.4,RS_Session_255_AU_90.1 (1).csv,6.814793092069625,0.5852069079303757
+Uttar Pradesh,A/c Gomti River (Bhusaula),2020,8.4,RS_Session_255_AU_90.1 (1).csv,7.839793092081138,0.5602069079188627
+Uttar Pradesh,Tarighat (Ghazipur),2020,7.6,RS_Session_255_AU_90.1 (1).csv,7.164793092072937,0.4352069079270624
+Bihar,Buxar,2020,9.1,RS_Session_255_AU_90.1 (1).csv,8.264793090188348,0.8352069098116512
+Bihar,"U/s Jail Ghat, Buxar (a/c Thora River)",2020,8.2,RS_Session_255_AU_90.1 (1).csv,7.764793090182696,0.43520690981730326
+Bihar,"Buxar, Ramrekhaghat",2020,8.5,RS_Session_255_AU_90.1 (1).csv,7.814793090183187,0.685206909816813
+Bihar,"Buxar d/s, Near Ganga Bridge",2020,8.2,RS_Session_255_AU_90.1 (1).csv,7.764793090182696,0.43520690981730326
+Bihar,"Arrah Chapra Road Bridge (u/s, Doriganj)",2020,8.6,RS_Session_255_AU_90.1 (1).csv,8.01479309018578,0.5852069098142199
+Bihar,"C/f Sone Doriganj, Chapra",2020,7.2,RS_Session_255_AU_90.1 (1).csv,8.164793090187516,-0.9647930901875155
+Bihar,"Maa Ambika Asthan, Doriganj d/s (Saran)",2020,8.0,RS_Session_255_AU_90.1 (1).csv,8.214793090188003,-0.21479309018800308
+Bihar,"Danapur, Near Pipapul",2020,8.3,RS_Session_255_AU_90.1 (1).csv,8.214793090188003,0.08520690981199763
+Bihar,"Khurji, u/s Patna",2020,7.8,RS_Session_255_AU_90.1 (1).csv,8.03979309018608,-0.23979309018608053
+Bihar,Darbhanga Ghat (Patna),2020,7.2,RS_Session_255_AU_90.1 (1).csv,7.864793090183614,-0.6647930901836139
+Bihar,Gulbi Ghat (Patna),2020,7.1,RS_Session_255_AU_90.1 (1).csv,7.564793090180611,-0.46479309018061166
+Bihar,Patna d/s (Ganga Bridge),2020,7.5,RS_Session_255_AU_90.1 (1).csv,7.599793090181269,-0.0997930901812687
+Bihar,Malsalami (Patna),2020,8.8,RS_Session_255_AU_90.1 (1).csv,8.114793090187224,0.6852069098127771
+Bihar,"Ganga at Kachchi-Dargah-Bidupur Road Bridge, Patna",2020,7.8,RS_Session_255_AU_90.1 (1).csv,8.509862083360847,-0.7098620833608473
+Bihar,Triveni Ghat,2020,7.3,RS_Session_255_AU_90.1 (1).csv,7.639793090181161,-0.33979309018116144
+Bihar,Fatuha,2020,6.3,RS_Session_255_AU_90.1 (1).csv,7.014793090173917,-0.7147930901739175
+Bihar,"Bakhyiyarpur-Tajpur Bridge on Ganga, Athmagola, Patna",2020,7.9,RS_Session_255_AU_90.1 (1).csv,7.009862066445336,0.890137933554664
+Bihar,Barh,2020,7.1,RS_Session_255_AU_90.1 (1).csv,7.614793090181035,-0.5147930901810351
+Bihar,Nawadaghat d/s,2020,7.5,RS_Session_255_AU_90.1 (1).csv,7.664793090181888,-0.16479309018188815
+Bihar,U/s Barahpur Bindtoli,2020,8.1,RS_Session_255_AU_90.1 (1).csv,7.814793090183187,0.2852069098168126
+Bihar,U/s Mokama,2020,7.7,RS_Session_255_AU_90.1 (1).csv,7.964793090185424,-0.26479309018542363
+Bihar,Mokama d/s,2020,6.9,RS_Session_255_AU_90.1 (1).csv,7.364793090177848,-0.46479309017784765
+Bihar,Barahia,2020,7.8,RS_Session_255_AU_90.1 (1).csv,8.189793090187774,-0.38979309018777375
+Bihar,U/s Munger,2020,7.8,RS_Session_255_AU_90.1 (1).csv,7.864793090183614,-0.06479309018361423
+Bihar,Munger,2020,7.6,RS_Session_255_AU_90.1 (1).csv,7.564793090180608,0.035206909819391896
+Bihar,U/s Sultanganj,2020,7.8,RS_Session_255_AU_90.1 (1).csv,7.814793090183187,-0.014793090183187196
+Bihar,"Water Intake Point, Bhagalpur",2020,7.3,RS_Session_255_AU_90.1 (1).csv,7.009862066445336,0.29013793355466344
+Bihar,Sultanganj (Bhagalpur),2020,8.1,RS_Session_255_AU_90.1 (1).csv,7.414793090178879,0.6852069098211206
+Bihar,Champanagar,2020,6.5,RS_Session_255_AU_90.1 (1).csv,7.814793090183187,-1.314793090183187
+Bihar,Bhagalpur,2020,7.1,RS_Session_255_AU_90.1 (1).csv,8.264793090188348,-1.1647930901883488
+Bihar,U/s Bhagalpur,2020,6.8,RS_Session_255_AU_90.1 (1).csv,7.314793090177499,-0.5147930901774993
+Bihar,Kahalgaon,2020,9.2,RS_Session_255_AU_90.1 (1).csv,8.01479309018578,1.1852069098142195
+Bihar,"Kahalgaon d/s, Near Cremation Ghat",2020,9.0,RS_Session_255_AU_90.1 (1).csv,7.464793090179295,1.5352069098207046
+Jharkhand,U/s Neara lCT Ghat,2020,8.6,RS_Session_255_AU_90.1 (1).csv,8.364793112195098,0.2352068878049014
+Jharkhand,Near Janta Ghat d/s,2020,8.4,RS_Session_255_AU_90.1 (1).csv,8.014793112191846,0.38520688780815426
+Jharkhand,Rajmahal,2020,8.4,RS_Session_255_AU_90.1 (1).csv,8.264793112194354,0.13520688780564605
+Jharkhand,Sangi Dalan,2020,8.6,RS_Session_255_AU_90.1 (1).csv,8.26479311219435,0.3352068878056489
+West Bengal,Beharampore,2020,6.9,RS_Session_255_AU_90.1 (1).csv,6.78979468117582,0.11020531882418005
+West Bengal,"Khagra, Beharampore",2020,7.6,RS_Session_255_AU_90.1 (1).csv,6.364794681170839,1.235205318829161
+West Bengal,"Gorabazar, Behrampore",2020,7.4,RS_Session_255_AU_90.1 (1).csv,7.164794681180037,0.23520531881996298
+West Bengal,"Nabadip, Ghoshpara Near Monipurghat",2020,6.8,RS_Session_255_AU_90.1 (1).csv,6.989794681177436,-0.18979468117743625
+West Bengal,"Tribeni, Near Burning Ghat",2020,6.9,RS_Session_255_AU_90.1 (1).csv,6.314794681170348,0.5852053188296527
+West Bengal,"Shitalatala, Palta",2020,5.7,RS_Session_255_AU_90.1 (1).csv,6.339794681170691,-0.6397946811706907
+West Bengal,Palta,2020,6.1,RS_Session_255_AU_90.1 (1).csv,6.0897946811676,0.010205318832399612
+West Bengal,Serampore,2020,5.8,RS_Session_255_AU_90.1 (1).csv,6.164794681168107,-0.36479468116810754
+West Bengal,Dakshineshwar,2020,6.4,RS_Session_255_AU_90.1 (1).csv,5.6147946811621345,0.7852053188378658
+West Bengal,Shivpur (Howrah),2020,5.2,RS_Session_255_AU_90.1 (1).csv,5.764794681163327,-0.5647946811633267
+West Bengal,Garden Reach,2020,5.5,RS_Session_255_AU_90.1 (1).csv,5.314794681158091,0.18520531884190916
+West Bengal,Uluberia,2020,5.7,RS_Session_255_AU_90.1 (1).csv,5.539794681160981,0.16020531883901956
+West Bengal,Diamond Harbour,2020,6.3,RS_Session_255_AU_90.1 (1).csv,6.289794681169621,0.010205318830379007

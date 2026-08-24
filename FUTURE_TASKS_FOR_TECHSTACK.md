@@ -1,47 +1,43 @@
-# TechStack - Future Tasks
+# TechStack Future Tasks
 
-## Current stopping point
+## Completed Through ML
 
-The data-preparation work in this task stops at:
+- [x] Raw data exploration and validation
+- [x] Water-quality standardization and master dataset
+- [x] Weather standardization as a separate master dataset
+- [x] Model-data filtering and feature selection
+- [x] Merged data-preparation and ML notebook
+- [x] Three dissolved-oxygen regression models trained
+- [x] Chronological holdout evaluation and model comparison
+- [x] Best model pipeline, metadata, predictions, metrics, and figures saved
 
-**Raw data -> cleaned/standardized master dataset -> filtered model dataset -> feature selection**
+## ML Handoff Result
 
-Do not start model training in this phase.
+- Target: `dissolved_oxygen`
+- Features: `state`, `station_name`, `year`
+- Evaluation: train on years before 2020; test on 2020
+- Models compared: Linear Regression, Random Forest, Gradient Boosting
+- Selected model: Linear Regression
+- Test MAE: `0.4878`
+- Test RMSE: `0.6049`
+- Test R2: `0.7300`
 
-## Completed by this task
+The complete workflow is in `notebooks/01_data_preparation_and_ml.ipynb`. The model comparison is saved in `data/processed/model_comparison.csv`, and the primary model is `models/best_water_quality_model.joblib`.
 
-- [x] Raw data exploration
-- [x] Water-quality standardization
-- [x] Water-quality master dataset
-- [x] Weather standardization
-- [x] Model-data filtering
-- [x] Feature selection
-- [x] Model-ready dataset
-- [x] Preserve `source_file` lineage for processed water-quality rows
-- [x] Keep the raw files unchanged
-- [x] Document that `RS_Session_255_AU_90.2.csv` has no year field
-- [x] Document that the weather files are standardized separately and not merged with historical water-quality data
+## Remaining Team Tasks
 
-## Future team tasks
+1. Validate the selected model on additional unseen periods or stations.
+2. Review model robustness and leakage assumptions with the ML team.
+3. Integrate weather only after historical date compatibility is established.
+4. Integrate the simulated IoT pipeline for demonstration/inference inputs.
+5. Build IoT/n8n integration.
+6. Build DSS and risk logic.
+7. Build CLI integration.
+8. Complete final system testing.
 
-1. ML training
-2. Model comparison
-3. Validation on unseen data
-4. Select best reliable model
-5. Save trained model
-6. IoT/n8n integration
-7. DSS/risk logic
-8. CLI integration
-9. Final system testing
-10. Satellite as future version enhancement
+## Scope Constraints
 
-## Explicit constraint
-
-Do not include satellite in the initial ML model.
-
-## Notes for the next team
-
-- Historical water-quality data and weather data are standardized into separate master files.
-- No satellite features are included in the initial model-ready dataset.
-- Synthetic IoT data remains clearly labeled as simulated data for the demo pipeline.
-
+- Do not include satellite in the initial ML model. Sentinel-2 features are a future enhancement only.
+- Synthetic IoT readings are simulation data, not historical ground truth.
+- `RS_Session_255_AU_90.2.csv` has no year field; its year remains unknown and those rows are excluded from chronological ML training.
+- Weather and historical water-quality records were not blindly merged because date compatibility has not been established.

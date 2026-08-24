@@ -1,0 +1,51 @@
+{
+  "target": "dissolved_oxygen",
+  "features": [
+    "state",
+    "station_name",
+    "year"
+  ],
+  "models_compared": [
+    "Linear Regression",
+    "Random Forest",
+    "Gradient Boosting"
+  ],
+  "selected_model": "Linear Regression",
+  "train_years": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2018,
+    2019
+  ],
+  "test_years": [
+    2020
+  ],
+  "metrics": [
+    {
+      "model": "Linear Regression",
+      "mae": 0.48781470582039177,
+      "rmse": 0.6049026455534323,
+      "r2": 0.7300306874558002
+    },
+    {
+      "model": "Random Forest",
+      "mae": 0.49458915994335345,
+      "rmse": 0.6282060074524568,
+      "r2": 0.7088293451535644
+    },
+    {
+      "model": "Gradient Boosting",
+      "mae": 0.5992716295183023,
+      "rmse": 0.7395098215336472,
+      "r2": 0.5965113474466548
+    }
+  ],
+  "limitations": [
+    "Weather was not merged because historical date compatibility is unestablished.",
+    "Satellite features are excluded from the initial model.",
+    "Synthetic IoT readings are not historical ground truth."
+  ]
+}
