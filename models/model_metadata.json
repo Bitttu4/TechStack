@@ -1,4 +1,5 @@
 {
+  "project_scope": "Ganga River baseline/reference implementation",
   "target": "dissolved_oxygen",
   "features": [
     "state",
@@ -32,9 +33,9 @@
     },
     {
       "model": "Random Forest",
-      "mae": 0.49458915994335345,
-      "rmse": 0.6282060074524568,
-      "r2": 0.7088293451535644
+      "mae": 0.49458915994335234,
+      "rmse": 0.6282060074524558,
+      "r2": 0.7088293451535654
     },
     {
       "model": "Gradient Boosting",
@@ -44,6 +45,7 @@
     }
   ],
   "limitations": [
+    "The current model is trained on the available Ganga baseline data, not multiple rivers.",
     "Weather was not merged because historical date compatibility is unestablished.",
     "Satellite features are excluded from the initial model.",
     "Synthetic IoT readings are not historical ground truth."
