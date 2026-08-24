@@ -1,6 +1,6 @@
 # TechStack Future Tasks
 
-## Completed Through ML
+## Completed Through Current ML Baseline
 
 - [x] Raw data exploration and validation
 - [x] Water-quality standardization and master dataset
@@ -9,10 +9,13 @@
 - [x] Merged data-preparation and ML notebook
 - [x] Three dissolved-oxygen regression models trained
 - [x] Chronological holdout evaluation and model comparison
-- [x] Best model pipeline, metadata, predictions, metrics, and figures saved
+- [x] Best model pipeline, metadata, predictions, and metrics saved
+- [x] Data-quality, temporal, station, state, model, and residual visualizations added
+- [x] Every notebook visualization displayed in output and saved under `images/`
 
-## ML Handoff Result
+## Current Baseline Handoff
 
+- Scope: Ganga River reference/baseline implementation
 - Target: `dissolved_oxygen`
 - Features: `state`, `station_name`, `year`
 - Evaluation: train on years before 2020; test on 2020
@@ -22,18 +25,29 @@
 - Test RMSE: `0.6049`
 - Test R2: `0.7300`
 
-The complete workflow is in `notebooks/01_data_preparation_and_ml.ipynb`. The model comparison is saved in `data/processed/model_comparison.csv`, and the primary model is `models/best_water_quality_model.joblib`.
+The complete workflow is in `notebooks/01_data_preparation_and_ml.ipynb`. Model comparison is saved in `data/processed/model_comparison.csv`, predictions are saved in `data/processed/best_model_predictions.csv`, and the primary model is `models/best_water_quality_model.joblib`.
 
-## Remaining Team Tasks
+These metrics describe the current Ganga baseline only. They do not establish performance across multiple rivers.
 
-1. Validate the selected model on additional unseen periods or stations.
-2. Review model robustness and leakage assumptions with the ML team.
-3. Integrate weather only after historical date compatibility is established.
-4. Integrate the simulated IoT pipeline for demonstration/inference inputs.
-5. Build IoT/n8n integration.
-6. Build DSS and risk logic.
-7. Build CLI integration.
-8. Complete final system testing.
+## Future Multi-River Roadmap
+
+1. Integrate standardized datasets from additional Indian rivers.
+2. Add a river identifier to the shared data schema.
+3. Standardize river-specific stations and monitoring records.
+4. Develop river-aware feature engineering.
+5. Compare generalized models with river-specific models.
+6. Validate performance across rivers, stations, and unseen time periods.
+7. Expand the supported forecasting targets.
+8. Build larger and more consistent historical datasets.
+
+## Remaining Platform Tasks
+
+1. Integrate weather only after historical date compatibility is established.
+2. Integrate the simulated IoT pipeline for demonstration and inference inputs.
+3. Build IoT/n8n integration.
+4. Build DSS and risk logic.
+5. Build CLI integration.
+6. Complete final system testing.
 
 ## Scope Constraints
 
@@ -41,3 +55,4 @@ The complete workflow is in `notebooks/01_data_preparation_and_ml.ipynb`. The mo
 - Synthetic IoT readings are simulation data, not historical ground truth.
 - `RS_Session_255_AU_90.2.csv` has no year field; its year remains unknown and those rows are excluded from chronological ML training.
 - Weather and historical water-quality records were not blindly merged because date compatibility has not been established.
+- Do not claim multi-river model generalization until multiple river datasets have been standardized and evaluated.
